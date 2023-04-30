@@ -1037,6 +1037,90 @@
         padding: 0.6em;
   }
 
+  /* VIDEO SECTION */
+
+  .box2 {
+    background-color: var(--codar);
+    padding-right: 0;
+    padding-left: 0;
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+.video-body{
+    overflow: hidden;
+    background-color: var(--black);
+    height: fit-content;
+}
+.video-table {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    background-color: var(--codar);
+}
+
+.video-lessons {
+    color: black;
+    font-size: large;
+    padding: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.video-lessons:hover {
+    cursor: pointer;
+    background-color:#d1d7dc;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    height: auto;
+}
+
+  .video-icon{
+    text-align: left;
+    position: sticky;
+    top: 0px;
+    background-color: var(--codar);
+    width: 100%;
+    padding-top: 3%;
+  }
+  .video-text p{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .video-text{
+    background-color: var(--codar);
+    text-align: center;
+    padding: 2em 1em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .video-icon a i{
+    font-size: 2rem;
+    color: var(--black);
+  }
+
+
   @media only screen and (max-width:991px) {
       .close {
           display: flex;
@@ -1107,21 +1191,38 @@
         position: unset;
         top: 0;
       }
+      .box2 #show-burger:checked ~ ul{
+        position: fixed;
+        left: 0;
+      }
   }
 
-  @media only screen and (max-width:586px) {
+  @media only screen and (max-width:786px) {
+}
+@media only screen and (max-width:586px) {
       .hero-section {
           padding: 80px 0 100px;
       }
 
       .course-1:hover {
           transform: scale(0.9);
-      }
-
-  }
-
-  @media only screen and (max-width:414px) {
+        }
+        
+        .box2{
+          height: 400px;
+        }
+    }
+    
+    @media only screen and (max-width:414px) {
+        .box2{
+          height: 600px;
+        }
       .style {
           width: 300px;
       }
+  }
+    @media only screen and (max-width:375px) {
+        .box2{
+          height: 400px;
+        }
   }
