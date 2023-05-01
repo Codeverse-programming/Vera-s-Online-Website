@@ -1077,7 +1077,17 @@
     overflow: hidden;
     padding-top: 56.25%;
 }
-
+#frame{
+width: 70%;
+height: 50vh;
+}
+.iframe-text h4{
+    font-weight: bold;
+    color: var(--black);
+}
+.iframe-text{
+    margin-top: -10%;
+}
 .responsive-iframe {
     position: absolute;
     top: 0;
