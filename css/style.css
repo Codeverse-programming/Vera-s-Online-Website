@@ -203,6 +203,7 @@
 
   .menu {
       display: none;
+      margin-right: 5%;
   }
 
   .user{
@@ -1229,6 +1230,7 @@ textarea {
           width: 100%; 
           height: 0;
           overflow: hidden;
+          z-index: 99;
           overflow-y: scroll;
           transition: 0.5s ease;
       }
