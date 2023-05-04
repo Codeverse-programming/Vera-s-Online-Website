@@ -1206,6 +1206,18 @@ textarea {
     font-size: 2rem;
     color: var(--black);
   }
+  .link-icon{
+    display: flex;
+    justify-content: space-between;
+  }
+  .link-icon a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .link-icon a:hover{
+    color: var(--white);
+  }
 
 
   /* LEARNING SECTION */
