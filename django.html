@@ -35,70 +35,9 @@
                         </label>
                         <li><a href="#hero">Home</a></li>
                         <li class="nav-item dropdown position-static">
-                            <a class="dropdown-toggle" href="./courses.html" id="navbarDropdown" role="button"
-                                data-mdb-toggle="dropdown" aria-expanded="false">
+                            <a href="./courses.html">
                                 Courses
                             </a>
-                            <!-- Dropdown menu -->
-                            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="
-                                                  border-top-left-radius: 0;
-                                                  border-top-right-radius: 0;
-                                                ">
-                                <div class="container">
-                                    <div class="heading">
-                                        <h1>Courses</h1>
-                                    </div>
-                                    <div class="row my-4">
-                                        <div class="col-md-6 col-lg-2 mb-3 mb-lg-0 mega">
-                                            <div class="">
-                                                <p>Popular course topics
-                                                    Explore free or paid courses in topics that interest you.</p>
-                                                <div class="explore">
-                                                    <a href="./courses.html">
-                                                        <button>Explore all courses</button>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
-                                            <div class="list-group list-group-flush">
-                                                <a href="./react.html"
-                                                    class="list-group-item list-group-item-action">REACT</a>
-                                                <a href="./c-plus.html"
-                                                    class="list-group-item list-group-item-action">C++</a>
-                                                <a href="./html-css.html"
-                                                    class="list-group-item list-group-item-action">HTML &
-                                                    CSS3</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                                                <div class="list-group list-group-flush">
-                                                    <a href="./python.html"
-                                                    class="list-group-item list-group-item-action">PYTHON</a>
-                                                    <a href="./javascript.html"
-                                                    class="list-group-item list-group-item-action">JAVASCRIPT</a>
-                                                    <a href="./java.html"
-                                                    class="list-group-item list-group-item-action">JAVA</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-lg-2 mb-3 mb-md-0">
-                                                <div class="list-group list-group-flush">
-                                                    <a href="./django.html" class="list-group-item list-group-item-action">DJANGO</a>
-                                                    <a href="./github.html" class="list-group-item list-group-item-action">GIT/GITHUB</a>
-                                                    <a href="./data-science.html" class="list-group-item list-group-item-action">DATA
-                                                        SCIENCE</a>
-                                                    </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-3">
-                                            <div class="list-group list-group-flush">
-                                                <a href="./sql.html" class="list-group-item list-group-item-action">SQL</a>
-                                                <a href="./node-js.html" class="list-group-item list-group-item-action">NODE JS</a>
-                                                <a href="./docker.html" class="list-group-item list-group-item-action">DOCKER</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </li>
                         <li><a href="./contact.html">Contact</a></li>
                     </ul>
@@ -117,14 +56,27 @@
         </header>
 
 
-        <section class="banner">
-            <div class="banner-text">
-                <h1>The Ultimate Django Course</h1>
-                <p>Everything you need to build fast and secure <br> RESTful APIs with Django.</p>
-                <div class="enroll">
-                    <a href="#payment">
-                        <button><i class="icon-shopping-cart m-lg-1 m-md-1 m-sm-1 m-1"></i>Enroll in Course</button>
-                    </a>
+        <section class="banner" id="banner">
+            <div class="container-lg container-md container-sm">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 align-self-center">
+                        <div class="banner-text mt-5">
+                            <h1>The Ultimate Django Course</h1>
+                            <p>Everything you need to build fast and secure <br> RESTful APIs with Django.</p>
+                            <div class="enroll">
+                                <a href="#payment">
+                                    <button>
+                                        <i class="icon-shopping-cart m-lg-1 m-md-1 m-sm-1 m-1"></i>Enroll in Course
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="banner-img">
+                            <img src="./images/python.webp" alt="" class=" img-fluid">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -150,13 +102,13 @@
                     </div>
                     <div class="col-lg-4 col-md-5 col-sm-6 col-12">
                         <div class="outline">
-                            <div class="style mt-sm-5 mt-5"></div>
                             <div class="line-1">
                                 <p><i class="icon-bar-chart"></i>beginner</p>
                                 <p><i class="icon-notifications"></i>lifetime access</p>
                                 <p><i class="icon-book"></i>exercises</p>
                                 <p><i class="icon-phone_android"></i>access on mobile/tv</p>
                                 <p><i class="icon-certificate"></i>certificate</p>
+                                <p><i class=" icon-clock-o"></i>Learn at your pace</p>
                             </div>
                         </div>
                     </div>
@@ -169,7 +121,9 @@
         <section class="what-you-learn">
             <div class="container-lg">
                 <div class="what-you-learn-text">
-                    <h1>The Most Comprehensive (and Fun) Django Course</h1>
+                    <i class=" icon-lightbulb-o"></i>
+                    <p>Highly Practical</p>
+                    <h1>What You'll Learn</h1>
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <ul>
@@ -188,7 +142,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <ul>
-                                <li><img src="./images/checked (1).png" alt=""> Create generic relationships using Content Types Framework etc</li>
+                                <li><img src="./images/checked (1).png" alt=""> Create generic relationships using
+                                    Content Types Framework etc</li>
                                 <li><img src="./images/checked (1).png" alt=""> Manage your application data using
                                     Django Admin
                                 </li>
@@ -203,21 +158,39 @@
             </div>
         </section>
 
-        <section class="real-work">
-            <div class="real-work-text">
-                <h3>A perfectly-structured course packed with exercises, solutions, and a <br> real project. Learn to
-                    build the backend for an e-commerce app.</h3>
-            </div>
-        </section>
-
-
-        <section class="courses-section">
-            <div class="container-lg container-md container-sm">
-                <h3 style="font-weight: bold; color: var(--black);">No prior knowledge needed</h3>
-                <div class="course-container mt-lg-3 mt-md-5 mt-sm-5 mt-5">
-                    <p style="font-size: 1.2rem;">You don't need familiarity with JavaScript to take this course. You'll
-                        learn everything from <br> scratch, step-by-step. A very basic familiarity with HTML will be
-                        helpful but it is not required.</p>
+        <section class="what-you-learn">
+            <div class="container-lg">
+                <div class="what-you-learn-text">
+                    <i class=" icon-question"></i>
+                    <p>What you should know</p>
+                    <h1>Prerequsites</h1>
+                    <p>You don't need prior knowledge of React to take this course. However, you should have some basic
+                        knowledge of web
+                        development, including Python.</p>
+                    <p>Here are the courses we recommend if you need to strengthen the fundamentals.</p>
+                    <div class="row">
+                        <div class="grid-1 col-lg-6 col-md-6 col-sm-12  col-12">
+                            <a href="./python.html">
+                                <img src="./images/python.jpg" alt="">
+                                <div class="other-text">
+                                    <h4 class="title">Python Programming Fundamentals</h4>
+                                    <p>Unlock the power of Python and embark on a journey into the world of programming
+                                        with
+                                        our Python Programming
+                                        Fundamentals course. Whether you're a complete beginner or looking to expand
+                                        your
+                                        coding skills.</p>
+                                    <p class="description">John Doe</p>
+                                    <p>4.5 <i class=" icon-star text-warning "></i><i
+                                            class=" icon-star text-warning "></i><i
+                                            class=" icon-star text-warning "></i><i
+                                            class=" icon-star text-warning "></i><i
+                                            class=" icon-star-half text-warning "></i></p>
+                                    <h5>&#8358;10,500</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -265,91 +238,15 @@
             </div>
         </div>
 
-        <section class="payment" id="payment">
-            <div class="container-lg">
-                <div class="payment-text">
-                    <h1>Django Skills are in High Demand</h1>
-                    <p>Don’t waste your time on random, disconnected YouTube tutorials or long, boring,
-                        poorly-structured courses. <br>
-                        Enroll now to quickly learn all the essential Django skills you need to become an in-demand
-                        developer.</p>
-                </div>
-                <div class="row mt-lg-5 mt-md-5 mt-sm-5 mt-5">
-                    <div class="price-column col-lg-4 col-md-4 col-sm-12 col-12">
-                        <div class="price-header">
-                            <div class="single-course">Single Course <br> Payment</div>
-                            <p>Own it forever</p>
-                            <div class="divider"></div>
-                            <div class="price">
-                                <div class="dollar-sign">$</div>
-                                149
-                                <!-- <div class="per-month">/mo</div> -->
-                            </div>
-                            <div class="plan-name">Limited time at this price</div>
-                        </div>
-                        <div class="price-button">
-                            <a href="./payment.html">
-                                <button class="cta">Buy Now</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="price-column popular col-lg-4 col-md-4 col-sm-12 col-12">
-                        <div class="price-header">
-                            <div class="single-course">All Access <br> membership</div>
-                            <p>Access all courses</p>
-                            <div class="divider"></div>
-                            <div class="price">
-                                <div class="dollar-sign">$</div>
-                                $29
-                                <div class="per-month">/mo</div>
-                            </div>
-                            <div class="plan-name">Cancel at anytime</div>
-                        </div>
-                        <div class="price-button">
-                            <a href="./payment.html">
-                                <button class="cta" id="cta">Subscribe and save</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="price-column col-lg-4 col-md-4 col-sm-12 col-12">
-                        <div class="price-header">
-                            <div class="single-course">All Access <br> membership</div>
-                            <p>Access all courses</p>
-                            <div class="divider"></div>
-                            <div class="price">
-                                <div class="dollar-sign">$</div>
-                                $29
-                                <div class="per-month">/mo</div>
-                            </div>
-                            <div class="plan-name">Cancel at anytime</div>
-                        </div>
-                        <div class="price-button">
-                            <a href="./payment.html">
-                                <button class="cta">Buy Now</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <section class="real-work">
+            <div class="real-work-text">
+                <h3>
+                    A perfectly-structured course packed with exercises, solutions, and
+                    a <br />
+                    real project. Learn and understand the what's, why's and how's.
+                </h3>
             </div>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         <!-- footer section -->
