@@ -5,49 +5,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>video1</title>
+    <title>Codar | Online Courses - Learn Anything</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./icomoon/style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/style (2).css">
+    <link rel="shortcut icon" href="./images/codar-logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
 </head>
 
 <body class="video-body">
 
+    <header class="js-header header" id="header">
+        <div class="containers">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./images/codar-logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <input type="checkbox" name="" id="show-menu" class="checkbox">
+                <ul>
+                    <label for="show-menu">
+                        <i class="icon-close close"></i>
+                    </label>
+                    <li><a href="#hero">Home</a></li>
+                    <li class="nav-item dropdown position-static">
+                        <a href="./courses.html">Courses
+                        </a>
+                    </li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu">
+                <label for="show-menu">
+                    <i class="icon-bars"></i>
+                </label>
+            </div>
+            <div class="button d-none">
+                <a href="./login.html">
+                    <button>Login</button>
+                </a>
+            </div>
+            <div class="button d-none">
+                <a href="./signup.html">
+                    <button>Signup</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
     <div class="container-fluid">
         <div class="row">
-            <div class="box2 col-lg-4 col-md-4 col-sm-12 order-lg-0 order-md-5 order-sm-5 order-5 align-self-center">
-                <div class="video-text">
-                    <p>React 18 for Beginners</p>
+            <div class="box1 col-lg-8 col-md-8 col-sm-12">
+                <div class="iframe-container">
+                    <iframe width="1000" height="523"
+                        src="https://www.youtube.com/embed/D3iEE29ZXRM?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G"
+                        title="HTML &amp; CSS Crash Course Tutorial #4 - CSS Basics" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="box2 col-lg-4 col-md-4 col-sm-12 order-lg-0 order-md-5 order-sm-5 order-5 pt-5">
+                <div class="heading-text">
+                    <h2>Course Content</h2>
+                    <i class=" icon-close"></i>
                 </div>
                 <ul class="video-table">
-                    <div class="link-icon">
-                        <a href="./react.html">
-                            <i class="icon-home"></i>
-                        </a>
-                        <div class="sub-links">
-                            <a href="">
-                                <i class="icon-sign-out"></i>
-                            </a>
-                        </div>
-                    </div>
                     <li class="video-lessons">
-                        <h5>Getting Started with React</h5>
-                    </li>
-                    <li class="video-lessons" id="video1">
-                        <p>1. What is React</p>
-                    </li>
-                    <li class="video-lessons" id="video2">
-                        <p>2. Create a React App</p>
-                    </li>
-                    <li class="video-lessons" id="video3">
-                        <p>3. Components and Templates</p>
-                    </li>
-                    <li class="video-lessons" id="video4">
-                        <p>4. Dynamic Values in Templates</p>
+                        <h5>Getting Started with React
+                            <label for="show-faq" class="">
+                                <i class=" icon-arrow_drop_down text-xl"></i>
+                            </label>
+                        </h5>
+                        <input type="checkbox" name="" id="show-faq">
+                        <div class="comment">
+                            <p id="video1">1. What is React
+                                <h6> <i class=" icon-video-camera"></i> 3min</h6>
+                            </p>
+                            <p id="video2">2. Create a React App</p>
+                            <h6> <i class=" icon-video-camera"></i> 5min</h6>
+                            <p id="video3">3. Components and Templates</p>
+                            <h6> <i class=" icon-video-camera"></i> 3min</h6>
+                            <p id="4">4. Dynamic Values in Templates</p>
+                            <h6> <i class=" icon-video-camera"></i> 3min</h6>
+                        </div>
                     </li>
                     <li class="video-lessons" id="video5">
                         <p>5. Multiple Components</p>
@@ -69,14 +116,6 @@
                     </li>
                 </ul>
             </div>
-
-
-            <div class="box1 mt-lg-5 col-lg-8 col-md-8 col-sm-12 align-self-center">
-                <div class="iframe-container">
-                    <iframe class="responsive-iframe" src="./video/video.mp4"
-                        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -84,11 +123,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/script.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

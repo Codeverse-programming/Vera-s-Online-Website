@@ -1,5 +1,5 @@
 $("#video1").click(function() {
-    $("iframe").attr("src", "./video/video.mp4");
+    $("iframe").attr("src", "https://www.youtube.com/embed/D3iEE29ZXRM?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G");
 });
 
 $("#video2").click(function() {
