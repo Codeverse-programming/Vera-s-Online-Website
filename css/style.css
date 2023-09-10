@@ -71,7 +71,7 @@
      padding: 0;
      box-sizing: border-box;
      text-decoration: none;
-     list-style: none;
+     /* list-style: none; */
      font-family: 'Poppins', sans-serif;
  }
 
@@ -118,9 +118,14 @@
      flex-wrap: wrap;
  }
 
+ nav ul li{
+    list-style: none;
+ }
+
  ul li a {
      color: var(--black);
      font-weight: bold;
+     text-decoration: none;
  }
 
  ul li .nav-item a {
@@ -1466,14 +1471,20 @@
  .box2 {
      background-color: var(--white);
      box-shadow: var(--base-box-shadow);
-     overflow-y: hidden;
+     overflow-y: scroll;
      width: fit-content;
-     height: auto;
-     position: relative;
+     height: fit-content;
+     position: sticky;
+     top: 0px;
  }
 
  .box1{
-  /* padding-top: 5em; */
+  height: auto;
+ }
+
+ .control{
+    display: flex;
+    justify-content: space-between;
  }
 
  .video-body {
@@ -1483,7 +1494,7 @@
 
  .video-table {
      list-style-type: none;
-     padding: 8em 0 0;
+     padding: 0em 0 0;
      text-align: left;
  }
 
@@ -1500,8 +1511,14 @@
      overflow: hidden;
  }
 
- .video-lessons input{
+ .video-lessons #show-faq{
     display: none;
+ }
+
+ .comment input[type="checkbox"]{
+    display: inline-block;
+    padding-inline: 6em;
+    background-color: yellow;
  }
 
  .video-lessons #show-faq:checked ~ .comment{
@@ -1516,9 +1533,9 @@
 
  .iframe-container {
      position: relative;
-     margin-top: 5.3em;
+     margin-top: 6em;
      width: 100%;
-     height: 100%;
+     height: auto;
      overflow: hidden;
      top: 0;
  }
@@ -1534,13 +1551,9 @@
  }
 
  .responsive-iframe {
-     /* position: absolute; */
-     display: block;
-     z-index: 99;
      background-color: var(--gray-dark);
-     bottom: 0;
      width: 100%;
-     height: 100%;
+     height: auto;
      border: none;
  }
 
@@ -1560,17 +1573,14 @@
  .heading-text h2 {
      color: var(--black);
      font-weight: bold;
+     font-size: 1.5rem;
  }
 
  .heading-text {
-     text-align: center;
-     padding: 4em 1em 0;
+     text-align: left;
+     padding: 4em 1em 2em;
      width: 100%;
-     display: flex;
-     gap: 10em;
-     position: fixed;
      background-color: var(--white);
-     top: 3em;
      box-shadow: var(--base-box-shadow);
  }
 
